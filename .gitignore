@@ -1,0 +1,4 @@
+*.log
+.xtherion.dat
+**/*.lox
+!Output/*.lox

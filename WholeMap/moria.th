@@ -1,0 +1,6 @@
+encoding  utf-8
+
+survey moria -title "Moria Cave Map"
+  input ./../New/Irina_2019/sha-2019.th
+endsurvey
+

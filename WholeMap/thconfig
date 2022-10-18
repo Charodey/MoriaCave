@@ -1,0 +1,18 @@
+encoding  utf-8
+source moria.th
+
+layout vid            # описание, какую сгенерировать карту
+  scale 1 100         # масштаб 1 к 100
+  color map-fg 85     # светло-серая заливка фона пещеры (можно ставить от 0 до 100)
+  language ru         # надписи выводить на русском языке
+  debug station-names # выводить номерки пикетов на карту
+endlayout
+
+# сгенерировать 3d-модель в файл cave3d.lox
+export model -output ./../Output/moria_3d.lox
+
+# сгенерировать карту в файл cave_plan.pdf
+#export map -proj plan -layout vid -o moria_plan.pdf
+
+# сгенерировать разрез в файл cave_ext.pdf
+#export map -proj extended -layout vid -o moria_ext.pdf

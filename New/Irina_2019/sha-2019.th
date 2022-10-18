@@ -1092,8 +1092,8 @@ GT18  GT19  3  255  +90 0.5 0.5 0.5 0
 GT19  GT20  4  260  +1 0.5 0.5 0.5 0
 GT20  GT20A  2  200  +1 0.5 0.5 0.5 0
 endcentreline
-input sha.th2
-input raz.th2
+#input sha.th2
+#input raz.th2
 endsurvey
 
 #map sha_centr -proj plan
