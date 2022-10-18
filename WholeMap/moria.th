@@ -2,5 +2,11 @@ encoding  utf-8
 
 survey moria -title "Moria Cave Map"
   input ./../New/Irina_2019/sha-2019.th
-endsurvey
 
+  input ./../Data/entry_pbl15.th
+  equate e1@sha e1@entry_pbl15
+  equate c87@sha c87@entry_pbl15
+
+  input ./../Data/skazka.th
+  equate e1@sha e1@skazka
+endsurvey
